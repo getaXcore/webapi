@@ -14,8 +14,8 @@ class Asm extends Controller
     {
         $this->OK = array("code"=>1,"description"=>"success");
         $this->notOK = array("code"=>0,"description"=>"no data");
-        $this->user_id ="SERVICEJTO";
-        $this->password = "JTO%^&";
+        $this->user_id ="";
+        $this->password = "";
         $this->auth = "";
         $this->urls = "https://pegadev.sinarmas.co.id/prweb/PRRestService/ASMFWSFAGISFWWork/Data-Portal/ASMRequestServiceAutoAccept";
 		$this->ociUser = "";
