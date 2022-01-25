@@ -16,10 +16,10 @@ class Asm extends Controller
         $this->notOK = array("code"=>0,"description"=>"no data");
         $this->user_id ="SERVICEJTO";
         $this->password = "JTO%^&";
-        $this->auth = "Basic U0VSVklDRUpUTzpKVE8lXiY=";
+        $this->auth = "";
         $this->urls = "https://pegadev.sinarmas.co.id/prweb/PRRestService/ASMFWSFAGISFWWork/Data-Portal/ASMRequestServiceAutoAccept";
-		$this->ociUser = "TAUFAN";
-		$this->ociPass = "mastaufanjto6";
+		$this->ociUser = "";
+		$this->ociPass = "";
 		$this->ociHost = "//192.168.205.100:1521/jtofast";
 		$this->connect = oci_connect($this->ociUser,$this->ociPass,$this->ociHost);
 		
